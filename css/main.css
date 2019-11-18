@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.photo:nth-child(2),
+.photo:nth-child(5) {
+  display: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
